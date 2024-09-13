@@ -1,6 +1,8 @@
 num1 = int(input("Input one number... "))
 num2 = int(input("Input a second number... "))
-print = ("We will now find the greatest common factor of both of these numbers.")
-if num1 != num2:
-    math.gcd(num1,num2)
-    
+gcf = 1
+
+for i in range(1, min(num1, num2)):
+    if num1 % i == 0 and num2 % i == 0:
+        gcf = i
+print(f"The greatest common factor of {num1} and {num2} is {gcf}.")
