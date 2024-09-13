@@ -1,6 +1,6 @@
 """ first going to set a variable and ask for input a sentence """
 """ after, going to establish a variable that determines the word count in the sentence"""
-sentence = input("Input a sentence for this test")
+sentence = input("Input a sentence... ")
 wordCount = 0
 
 def outputSentence():
