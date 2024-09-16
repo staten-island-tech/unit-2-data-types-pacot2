@@ -1,6 +1,6 @@
 bill = 0
 running = 0
-while running <= 19:
+while running <= 49:
     quality = input("Thanks for dining with us today! How was our service today? Was it bad, okay, good, or great? ")
     if quality == "bad" or quality == "Bad":
         print("We're so sorry. ")
@@ -25,5 +25,5 @@ while running <= 19:
     else:
         print("I'm sorry, something went wrong. Try again. ")
         running = int(running + 1)
-if running == 20:
+if running == 50:
     print("Why are you inputting so much? Please stop... Come back when you've learned some patience.")
