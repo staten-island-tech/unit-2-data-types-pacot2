@@ -9,8 +9,8 @@ else:
         if num1 % i == 0 and num2 % i == 0:
             gcf = i
     if gcf == 1:
-        print(f"The greatest common factor between {num1} and {num2} is 1!")
+        print(f"The greatest common factor between {num1} and {num2} is 1.")
         print("This means that your two numbers essentially do not share any common factors.")
         print("... other than 1, of course.")
     else:
-        print(f"The greatest common factor of {num1} and {num2} is {gcf}")
+        print(f"The greatest common factor of {num1} and {num2} is {gcf}.")
