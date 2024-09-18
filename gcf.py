@@ -8,4 +8,8 @@ else:
     for i in range(1, max(num1, num2)):
         if num1 % i == 0 and num2 % i == 0:
             gcf = i
-    print(f"The greatest common factor of {num1} and {num2} is {gcf}.")
+    if gcf == 1:
+        print(f"The greatest common factor between {num1} and {num2} is 1!")
+        print("This means that your two numbers essentially do not share any common factors.")
+    else:
+        print(f"The greatest common factor of {num1} and {num2} is {gcf}")
