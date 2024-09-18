@@ -1,7 +1,7 @@
 sentence = input("Input a sentence... ")
 wordCount = 0
 
-def outputSentence():
+def outputWordCount():
     print(f"You wrote, '{sentence}'.")
     print("...")
     print("...")
@@ -11,4 +11,4 @@ def outputSentence():
         print(f"There is 1 word in your sentence.")
     else:
         print(f"There are {wordCount} words in your sentence.")
-outputSentence()
+outputWordCount()
