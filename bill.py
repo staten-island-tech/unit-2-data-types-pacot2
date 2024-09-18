@@ -25,5 +25,5 @@ while running <= 49:
     else:
         print("I'm sorry, something went wrong. Try again. ")
         running += 1
-if running == 50:
+if running >= 50:
     print("Why are you inputting so much? Please stop... Come back when you've learned some patience.")
