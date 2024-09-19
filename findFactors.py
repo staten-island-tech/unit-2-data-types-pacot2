@@ -1,6 +1,6 @@
 factorStorage = []
 def callFactors(x):
-   print("The factors of",x,"are:")
+   print(f"The factors of {number} are:")
    for i in range(1, x + 1):
        if x % i == 0:
            factorStorage.append(i)
