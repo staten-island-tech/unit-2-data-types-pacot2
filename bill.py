@@ -1,6 +1,7 @@
 bill = 0
 running = 0
 owedAmount = 0
+roundedAmount = 0
 while running <= 49:
     quality = input("Thanks for dining with us today! How was our service today? Was it bad, okay, good, or great? ")
     if quality == "bad" or quality == "Bad":
@@ -28,4 +29,6 @@ while running <= 49:
         running = 25
 owedAmount = int(input("What's your bill amount? Don't use the dollar sign. "))
 newAmount = owedAmount * bill
-print(f"Your suggested bill is ${newAmount}.")
+roundedAmount = round(newAmount, 2)
+roundedAmount = str(roundedAmount) + "0"
+print(f"Your suggested bill is ${roundedAmount}.")
