@@ -27,8 +27,7 @@ while running <= 49:
     else:
         print("I'm sorry, something went wrong. Try again. ")
         running = 25
-owedAmount = int(input("What's your bill amount? Don't use the dollar sign. "))
+owedAmount = float(input("What's your bill amount? Don't use the dollar sign. "))
 newAmount = owedAmount * bill
 roundedAmount = round(newAmount, 2)
-roundedAmount = str(roundedAmount) + "0"
 print(f"Your suggested bill is ${roundedAmount}.")
